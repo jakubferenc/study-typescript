@@ -1,0 +1,12 @@
+{
+    "files": [
+      "src/js/**/*.ts"
+    ],
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "strictNullChecks": true,
+        "allowJs": true,
+        "experimentalDecorators": true
+    }
+}

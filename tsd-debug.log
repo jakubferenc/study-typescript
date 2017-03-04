@@ -1,0 +1,31 @@
+[ERR!] cwd  : C:\Users\jakub\MEGAsync\Study\typescript
+[ERR!] os   : Windows_NT 10.0.14393
+[ERR!] argv : "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\jakub\\AppData\\Roaming\\npm\\node_modules\\tsd\\build\\cli.js" "query"
+[ERR!] node : v6.9.4
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: pass at least one query pattern
+[ERR!] CODE : undefined
+[ERR!] pass at least one query pattern
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+VError: pass at least one query pattern
+    at C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\build\tsd\CLI.js:113:23
+    at tryCatch1 (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\util.js:63:19)
+    at Promise$_callHandler [as _callHandler] (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:695:13)
+    at Promise$_settlePromiseFromHandler [as _settlePromiseFromHandler] (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:711:18)
+    at Promise$_settlePromiseAt [as _settlePromiseAt] (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:868:14)
+    at Promise$_settlePromises [as _settlePromises] (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\promise.js:1006:14)
+    at Async$_consumeFunctionBuffer [as _consumeFunctionBuffer] (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:74:12)
+    at Async$consumeFunctionBuffer (C:\Users\jakub\AppData\Roaming\npm\node_modules\tsd\node_modules\bluebird\js\main\async.js:37:14)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+[ERR!] tsd.json could not be retrieved
+
+[ERR!] .tsdrc could not be retrieved
+
+[ERR!] Please include the following file with any support request:
+    C:\Users\jakub\MEGAsync\Study\typescript\tsd-debug.log
+

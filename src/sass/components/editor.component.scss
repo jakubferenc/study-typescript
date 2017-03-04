@@ -1,0 +1,57 @@
+@keyframes notification {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+
+.editor {
+    .canvas {
+         font-size: 1.5rem
+    }
+    .status {opacity: 0; margin-top: 2em; /* temp: */}
+    .status.active {
+        animation: notification 6s;
+    }
+
+    a {color: #000}
+
+}
+
+.editor-content-saved-text {
+  background: rgba(255,255,255,.9);
+  position: fixed; top: 0; left: 0;
+  height: 100%;
+  width: 50%;
+  z-index: 3;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 2em;
+
+  .remove {margin-left: 1em;}
+
+  .item {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+  }
+
+  .close {
+    position: absolute; top: 15px; right: 15px;
+    background: #eee;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 50px;
+
+    @extend .ion-ios-close;
+  }
+
+}
+

@@ -1,0 +1,39 @@
+@import 'partials/mixins';
+@import 'lib/animations';
+
+@import '../../node_modules/ionicons/dist/scss/ionicons';
+
+@import 'components/editor.component';
+@import 'components/editor.context-menu.component';
+@import 'components/editor.content-popup.component';
+
+body {}
+
+.container {display: table;}
+
+h1 {font-size: 40px; color: #333;}
+
+.faksimile {width: 100%}
+
+.faksimile-container,
+.faksimile-text-container {float: left; width: 48%;}
+
+.faksimile-text-container {float: right;}
+
+.orange {background-color: orange}
+.red {background-color: red}
+.blue {background-color: lightskyblue}
+
+.text-red,
+.text-blue,
+.text-orange {}
+
+.text-red {background-color: red; color: #fff;}
+.text-blue {background-color: lightskyblue; color: #fff;}
+.text-orange {background-color: orange; color: #fff;}
+
+.editor-link-popup {
+    @extend .ion-ios-chatboxes-outline;
+}
+
+.hidden {display: none;}

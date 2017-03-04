@@ -1,0 +1,68 @@
+.editor-context-menu-component {
+
+    animation: fadeIn .25s;
+
+
+    margin-bottom: 2em; /* temp: */
+    padding: 2em;
+    position: absolute;
+    box-shadow: 0 4px 10px 2px rgba(0,0,0,.1);
+    background: #fff;
+    min-width: 250px;
+
+    .menu-actions,
+    .menu-nav,
+    .menu-dangerous {line-height: 30px;}
+
+    .menu-actions {
+        margin: 0;
+        padding: 0;
+
+        .reset {
+
+          opacity: .7;
+
+          &:hover {opacity: 1;}
+
+          float: right;
+          .item-text {margin-right: 5px; vertical-align: super;}
+          .item {
+            background: #ddd;
+            font-size: 1.8rem;
+            text-align: center;
+            line-height: 35px;
+            @extend .ion-ios-close;
+          }
+        }
+
+        .item {display: inline-block; cursor: pointer; margin-right: 5px; vertical-align: top}
+        .color {
+            border-radius: 50%;
+
+            &:hover {opacity: 1;}
+        }
+        .command {
+            height: 30px;
+            width: 30px;
+            opacity: .7;
+        }
+        .text-command {
+          border: 1px solid #eee;
+          text-align: center;
+          line-height: 30px;
+        }
+
+    }
+
+    a.item {color: #000; margin-right: 5px;}
+
+    .menu-nav {
+
+          display: inline-block;
+
+
+    }
+
+    .menu-dangerous {float: right;}
+
+}
